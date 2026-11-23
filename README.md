@@ -922,6 +922,14 @@ python normalize_datasets.py
 
 Loads the supplied MIDAS and PETCI JSON files and writes normalized JSONL plus summary/exclusion reports under `data/processed/`.
 
+### Create the evaluation sample
+
+```bash
+python main.py
+```
+
+`SAMPLE_SIZE_PER_COHORT` at the top of `sample.py` controls the number sampled from each of five separate cohorts: MIDAS Arabic, English, Korean, and Chinese, plus PETCI Chinese-to-English. It defaults to 300, with a fixed seed for reproducibility. Exact duplicate pairs flagged during normalization are excluded from sampling. Samples and an ID manifest are written to `data/processed/samples/`; full normalized datasets remain unchanged.
+
 ### Run one checkpoint locally
 
 ```bash
