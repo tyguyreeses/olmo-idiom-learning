@@ -1,0 +1,24 @@
+{
+  "datasets": {
+    "MIDAS": {
+      "source_records": 44381,
+      "retained_records": 44381,
+      "duplicate_records": 22,
+      "excluded_records": 0
+    },
+    "PETCI": {
+      "source_records": 4310,
+      "retained_records": 4310,
+      "excluded_records": 0
+    }
+  },
+  "total_retained_records": 48691,
+  "records_by_idiom_to_target_language": {
+    "ar->ar": 8051,
+    "en->en": 11806,
+    "ko->ko": 12673,
+    "zh->en": 4310,
+    "zh->zh": 11851
+  },
+  "excluded_records": 0
+}

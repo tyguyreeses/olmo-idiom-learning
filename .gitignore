@@ -1,0 +1,9 @@
+# Local/editor files
+.DS_Store
+.idea/
+__pycache__/
+*.py[cod]
+
+# Original source datasets are private/large; keep normalized data tracked.
+/data/MIDAS/
+/data/PETCI/
